@@ -1,0 +1,42 @@
+
+<div class="cover container">
+<p class="navbar-text pull-right">
+<% if user_signed_in? %>
+  Logged in as <strong><%= current_user.email %></strong>.
+  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+<% else %>
+  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+<% end %>
+</p>
+
+	<h3 class="text-center">My SecretCode</h3>
+	<% if current_user.has_role? :admin %>
+		<a href="/secrets" class="text-center btn btn-info">Generate Codes</a>
+		
+	<% end %>
+
+	<div class="table-responsive-sm table-striped">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Secret Code</th>
+        <th>User</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><%= 1 %></td>
+        <td><%= (@user.secret_code.nil?) ? "N/A" : @user.secret_code.secret_code  %></td>
+        <td><%= (@user.nil?) ? "N/A" : @user.email  %></td>
+        <td><%= (@user.nil?) ?  "N/A" : @user.first_name + " " + @user.last_name %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
