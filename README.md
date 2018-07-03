@@ -21,13 +21,13 @@ As per the provided guidelines, read following steps to get familiar to applicat
 
 * give him the ability to manage all using cancancan. ie. Ability.new(user)  
 
-* Install Redis. and run 'bundle exec sidekiq' to activate background jobs. 
-
 * After creating the admin, use those credentials to login. You will be redirected to "/" after successful login. 
 
 * Then go to "/secrets" to generate some codes. Use the button on interface provided. "/secrets" route is only accessible to admin. 
 
 * Create desired number of codes. Codes generated will be shown on same page only to admin. 
+
+* Install Redis. and run 'bundle exec sidekiq' to activate background jobs. 
 
 * After codes creation, logout and try signup with some random EMAILID. 
 
