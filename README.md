@@ -3,7 +3,7 @@
 This app is a part of recuitment test. I thought to make it open sp you can use the code as per the provided guidelines, read following steps to get familiar to application. 
 
 
-* Do the bundle install, 
+* Do the bundle install
 
 * Make your own config/database.yml and secrets.yml
 (or you can replace guser and gpass with your email and pass in development.rb)
