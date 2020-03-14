@@ -17,7 +17,7 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 * So you have to create an admin user through console. i.e
  User.create(first_name: "atc", last_name: "asd", email: "sample@sam.co", password: "sample123")
 
-* Assign it the role ':admin' using rolify syntax. i.e. user.add_role :admin.
+* Assign it the role ':admin' using rolify syntax. i.e. user.add_role :admin
 
 * give him the ability to manage all using cancancan. ie. Ability.new(user)  
 
