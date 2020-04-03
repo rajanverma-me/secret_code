@@ -7,7 +7,7 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 * Make your own config/database.yml and secrets.yml
 (or you can replace guser and gpass with your email and pass in development.rb)
 
-* Do db:create, db:migrate. 
+* Do db:create, db:migrate.
 
 * After running server, you will be shown "/" home_controller's index function. Which is not publically accessible. So you will be redirected to devise's login page. 
 
