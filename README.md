@@ -25,6 +25,7 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 
 * Then go to "/secrets" to generate some codes. Use the button on interface provided. "/secrets" route is only accessible to admin. 
 
+
 * Create desired number of codes. Codes generated will be shown on same page only to admin. 
 
 * Install Redis. and run 'bundle exec sidekiq' to activate background jobs. 
