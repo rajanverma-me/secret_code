@@ -18,7 +18,6 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 
 * Assign it the role ':admin' using rolify syntax. i.e. user.add_role :admin
 
-
 * give him the ability to manage all using cancancan. ie. Ability.new(user)  
 
 * After creating the admin, use those credentials to login. You will be redirected to "/" after successful login. 
