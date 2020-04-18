@@ -1,6 +1,6 @@
 # PERFORM THESE STEPS IN ORDER TO USE THE APPLICATION
 
-This app is a part of recuitment test. I thought to make it open sp you can use the code as per the provided guidelines, read following steps to get familiar to the application. 
+This app is a part of recuitment test. I thought to make it open sp you can use the code as per the provided guidelines, read following steps to get familiar to the application... 
 
 * Do the bundle install.
 
