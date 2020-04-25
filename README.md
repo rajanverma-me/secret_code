@@ -10,6 +10,7 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 
 * Do db:create, db:migrate.
 
+
 * After running server, you will be shown "/" home_controller's index function. Which is not publically accessible. So you will be redirected to devise's login page. 
 
 * Here you can try to sign up, but it will not continue; until admin provide some secret codes to select. 
