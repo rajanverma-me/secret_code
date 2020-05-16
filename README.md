@@ -4,7 +4,7 @@ This app is a part of recuitment test. I thought to make it open sp you can use 
 
 * Do the bundle install 
 
-* Make your own config/database.yml and secrets.yml
+* Make your own config/database.yml and secrets.yml 
 (or you can replace guser and gpass with your email and pass in development.rb)
 
 * Do db:create, db:migrate.
